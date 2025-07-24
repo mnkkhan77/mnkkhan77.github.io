@@ -42,7 +42,7 @@ const projects: Project[] = [
   //   description:
   //     "Interactive weather dashboard with location-based forecasts, historical data, and responsive design.",
   //   technologies: ["React.js", "JavaScript", "REST API", "CSS3"],
-  //   github: "https://github.com/johnsmith/weather-dashboard",
+  //   github: "https://github.com/mnkkhan77/weather-dashboard",
   //   demo: "https://weather-dashboard-demo.vercel.app",
   //   image:
   //     "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800",
