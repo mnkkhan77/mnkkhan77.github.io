@@ -33,7 +33,7 @@ const projects: Project[] = [
       "Vite",
     ],
     github: "https://github.com/mnkkhan77/job-portal",
-    demo: "https://taskmanager-demo.vercel.app",
+    demo: "https://epic-job-portal.vercel.app",
     image:
       "https://private-user-images.githubusercontent.com/37503821/464532015-1402cb2d-586d-49ec-988e-b357e351d963.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTMzNzE5NTksIm5iZiI6MTc1MzM3MTY1OSwicGF0aCI6Ii8zNzUwMzgyMS80NjQ1MzIwMTUtMTQwMmNiMmQtNTg2ZC00OWVjLTk4OGUtYjM1N2UzNTFkOTYzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTA3MjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwNzI0VDE1NDA1OVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTIwMWVhODRkZjdkNTJkOTkwMzFhMmRmZWJhZWM0NzRmY2JmY2MwZjM1N2Y5M2Y0N2UzNjZmMDQ4ZTg4ZDU3MGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QVmJoL4Zq27FVZ4UZ0MPz8EVTgCjnTxNxkNmNnX80gM",
   },
