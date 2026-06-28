@@ -11,7 +11,7 @@ export default function Navigation({ darkMode, toggleTheme }: NavigationProps) {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="font-bold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            Nasir Khan
+            Md Nasir Khan
           </div>
           <div className="flex items-center space-x-6">
             <a
@@ -19,6 +19,12 @@ export default function Navigation({ darkMode, toggleTheme }: NavigationProps) {
               className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
             >
               About
+            </a>
+            <a
+              href="#experience"
+              className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            >
+              Experience
             </a>
             <a
               href="#skills"

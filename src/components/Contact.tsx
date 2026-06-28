@@ -43,7 +43,7 @@ export default function Contact() {
               size={32}
             />
             <h3 className="font-semibold mb-2">LinkedIn</h3>
-            <p className="text-gray-600 dark:text-gray-300">Nasir Khan</p>
+            <p className="text-gray-600 dark:text-gray-300">Md Nasir Khan</p>
           </a>
         </div>
       </div>

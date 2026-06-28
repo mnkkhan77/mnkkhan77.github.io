@@ -10,41 +10,41 @@ export default function About() {
           <div>
             <h3 className="text-2xl font-semibold mb-4">My Journey</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              As a Junior Developer, I'm passionate about building robust and
-              scalable web applications. My journey in software development
-              began with a fascination for problem-solving and has evolved into
-              a love for creating user-centric solutions.
+              I'm a Full Stack Engineer with 3+ years of experience building
+              production backend systems and web applications. I started my
+              career at Cognizant Technology Solutions, working on
+              enterprise-scale Java Spring Boot APIs and AWS deployments.
             </p>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I have hands-on experience with both backend and frontend
-              technologies, allowing me to understand the full development
-              lifecycle. I'm particularly drawn to the Spring Boot ecosystem for
-              backend development and React.js for creating dynamic user
-              interfaces.
+              Today I deliver marketplace and AI-integrated backend systems at
+              Growth Loops Technology using NestJS, Next.js, and Prisma — from
+              real-time WebSocket chat to full order-management flows. Alongside
+              that, I've kept my Java skills sharp through independent full-stack
+              projects with Spring Boot backends.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              When I'm not coding, I enjoy staying up-to-date with the latest
-              technology trends, contributing to open-source projects, and
-              continuously expanding my skill set.
+              I'm strongest in REST API design, database modelling, and system
+              architecture — and I'm actively targeting Java / Spring Boot
+              engineering roles where I can build robust, scalable backends.
             </p>
           </div>
           <div className="space-y-4">
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-              <h4 className="font-semibold mb-2">🎯 Focus Areas</h4>
+              <h4 className="font-semibold mb-2">🎯 Core Strengths</h4>
               <ul className="text-gray-600 dark:text-gray-300 space-y-1">
-                <li>• Full-Stack Web Development</li>
-                <li>• RESTful API Design</li>
-                <li>• Database Design & Optimization</li>
-                <li>• Responsive UI/UX Development</li>
+                <li>• REST API Design &amp; Microservices</li>
+                <li>• Database Modelling &amp; Query Optimisation</li>
+                <li>• System Design &amp; API Architecture</li>
+                <li>• Real-time Systems (WebSockets)</li>
               </ul>
             </div>
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-              <h4 className="font-semibold mb-2">🚀 Currently Learning</h4>
+              <h4 className="font-semibold mb-2">🚀 Working With</h4>
               <ul className="text-gray-600 dark:text-gray-300 space-y-1">
-                <li>• Microservices Architecture</li>
-                <li>• Cloud Technologies (AWS)</li>
-                <li>• Advanced React Patterns</li>
-                <li>• DevOps Practices</li>
+                <li>• Java, Spring Boot &amp; Microservices</li>
+                <li>• NestJS, TypeScript &amp; Next.js</li>
+                <li>• PostgreSQL, MySQL &amp; Prisma ORM</li>
+                <li>• AWS (S3, EC2) &amp; CI/CD Pipelines</li>
               </ul>
             </div>
           </div>

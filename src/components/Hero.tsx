@@ -13,17 +13,20 @@ export default function Hero() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              Nasir Khan
+              Md Nasir Khan
             </span>
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-6">
-            Junior Developer
+          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 mb-4">
+            Full Stack Engineer
+          </p>
+          <p className="text-sm sm:text-base font-medium text-blue-600 dark:text-blue-400 mb-6">
+            Java · Spring Boot · React · NestJS · AWS
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
-            Passionate about creating innovative web applications with modern
-            technologies. I specialize in full-stack development using Java
-            Spring Boot and React.js, always eager to learn and tackle new
-            challenges.
+            Full Stack Engineer with 3+ years of experience building production
+            backend systems and web applications. I design REST APIs, model
+            databases, and ship scalable services — with a strong focus on the
+            Java &amp; Spring Boot ecosystem.
           </p>
           <div className="flex justify-center space-x-4">
             <a

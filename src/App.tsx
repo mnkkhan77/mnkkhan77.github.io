@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
@@ -20,6 +21,7 @@ function App() {
         <Navigation darkMode={darkMode} toggleTheme={toggleTheme} />
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Projects />
         <Contact />
