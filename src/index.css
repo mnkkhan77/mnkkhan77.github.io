@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  /* Offset anchor jumps so the fixed navbar (h-16 = 4rem) doesn't cover headings */
+  scroll-padding-top: 4rem;
+}

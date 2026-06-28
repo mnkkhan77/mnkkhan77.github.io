@@ -1,4 +1,10 @@
-import { Briefcase, MessageCircle, User } from "lucide-react";
+import { Briefcase, Download, MessageCircle } from "lucide-react";
+
+const stats = [
+  { value: "3+ yrs", label: "Experience" },
+  { value: "100+", label: "REST APIs Built" },
+  { value: "4+", label: "Live Projects" },
+];
 
 export default function Hero() {
   return (
@@ -6,9 +12,11 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto text-center">
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1">
-            <div className="w-full h-full rounded-full bg-white dark:bg-gray-900 flex items-center justify-center">
-              <User size={48} className="text-blue-600 dark:text-blue-400" />
-            </div>
+            <img
+              src="https://github.com/mnkkhan77.png"
+              alt="Md Nasir Khan"
+              className="w-full h-full rounded-full object-cover bg-white dark:bg-gray-900"
+            />
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
             Hi, I'm{" "}
@@ -28,7 +36,7 @@ export default function Hero() {
             databases, and ship scalable services — with a strong focus on the
             Java &amp; Spring Boot ecosystem.
           </p>
-          <div className="flex justify-center space-x-4">
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
             <a
               href="#contact"
               className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-medium transition-colors inline-flex items-center space-x-2"
@@ -43,6 +51,26 @@ export default function Hero() {
               <Briefcase size={20} />
               <span>View Projects</span>
             </a>
+            <a
+              href="/Resume_Nasir_Khan_v2.pdf"
+              download="Md_Nasir_Khan_Resume.pdf"
+              className="border border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 px-8 py-3 rounded-lg font-medium transition-colors inline-flex items-center space-x-2"
+            >
+              <Download size={20} />
+              <span>Download Résumé</span>
+            </a>
+          </div>
+          <div className="flex flex-wrap justify-center gap-8 sm:gap-16">
+            {stats.map((stat, index) => (
+              <div key={index}>
+                <div className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  {stat.value}
+                </div>
+                <div className="text-sm text-gray-500 dark:text-gray-400">
+                  {stat.label}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
